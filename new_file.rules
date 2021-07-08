@@ -1,0 +1,2 @@
+ACTION=="add", KERNEL=="sd[a-z]1", ATTRS{idProduct}=="3a04" , ATTRS{idVendor}=="1609",RUN+="/home/igor/my_script.sh"
+
